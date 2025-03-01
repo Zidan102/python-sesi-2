@@ -7,12 +7,12 @@ ganjil = (c % 2) != 0
 if a > b and b > c and b != c and ganjil is True and genap is True:
     print('Angka Valid')
 if ganjil is False:
-    print('Angka salah karna c bukan ganjil')
+    print('Angka tidak valid karna c bukan ganjil')
 if genap is False:
-    print('Angka salah karna a bukan genap')
+    print('Angka tidak valid karna a bukan genap')
 if a < b:
-    print('Angka salah karna a lebih kecil daripada b')
+    print('Angka tidak valid karna a lebih kecil daripada b')
 if b < c:
-    print('Angka salah karna b lebih kecil daripada c')
+    print('Angka tidak valid karna b lebih kecil daripada c')
 if b == c:
-    print('Angka salah karna b dan c nilainya sama')
+    print('Angka tidak valid karna b dan c nilainya sama')
