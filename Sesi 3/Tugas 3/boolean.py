@@ -1,4 +1,7 @@
-x, y = 1, 1
+a = int(input("Masukkan nilai x: "))
+b = int(input("Masukkan nilai y: "))
+x = a % 2
+y = b % 2
 bx = (bool(x))
 by = (bool(y))
 
