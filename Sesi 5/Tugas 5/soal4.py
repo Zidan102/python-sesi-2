@@ -1,0 +1,11 @@
+wadah = []
+n1 = int(input('Masukan angka pertama: '))
+wadah.append(n1)
+n2 = int(input('Masukan angka kedua: '))
+wadah.append(n2)
+n3 = int(input('Masukan angka ketiga: '))
+wadah.append(n3)
+wadah.sort(reverse=True)
+print("angka terbesarnya adalah %s dari angka yang diinput" % (wadah[0]))
+print("ini adalah urutannya")
+print(wadah)
