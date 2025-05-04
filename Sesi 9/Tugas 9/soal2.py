@@ -1,0 +1,10 @@
+nama_buah = ["Alpukat",'Apel','Anggur','Jeruk','Mangga']
+print("Berikut list dari nama buah yang ada:")
+print(nama_buah)
+print("Berikut adalah buah yang ada di index ke-2:")
+print('"%s"'%(nama_buah[2]))
+print()
+plus_buah = input('Masukan Nama Buah untuk ditambahkan: ')
+nama_buah.append(plus_buah)
+print('Ini adalah hasil setelh menambahkan "%s" kedalam list buah: '%(plus_buah))
+print(nama_buah)
