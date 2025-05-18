@@ -31,10 +31,10 @@
 #isi.remove(5)
 #print(isi)
 
-#parte 8
-#isi = [5,2,9,1,7]
-#naik = sorted(isi)
-#turun = sorted(isi, reverse=True)
-#print(naik)
-#print(turun)
+# parte 8
+# isi = [5,2,9,1,7]
+# naik = sorted(isi)
+# turun = sorted(isi, reverse=True)
+# print(naik)
+# print(turun)
 
