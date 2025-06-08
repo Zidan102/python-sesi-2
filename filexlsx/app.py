@@ -23,6 +23,6 @@ def grade(score):
         return "D"
     
 score = pd.read_excel("filexlsx/data-score.xlsx","TI24E")
-score["New Score"] = score["Score"].apply(updateScore)
-score["Grade"] = score["New Score"].apply(grade)
-score.to_excel("filexlsx/data-score-updated.xlsx", index=False)
+score["Grade"] = score["Score"].apply(grade)
+score.groupby("Grade").size().reset_index(name='Count')
+score.to_excel("filexlsx/data-score-group.xlsx", index=False)
